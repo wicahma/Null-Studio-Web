@@ -12,7 +12,7 @@ const Hero = (props) => {
           Portfolio Website to appropriate products and services.
         </h2>
       </div>
-      <div className="lg:w-[500px] w-[90%] !overflow-hidden lg:relative absolute blur-sm lg:blur-0  z-[1] lg:opacity-100 opacity-10 flex-none lg:dark:bg-purple-500 lg:bg-orange-500 aspect-square rounded-[30px]">
+      <div className="lg:w-[500px] w-[90%] lg:relative absolute blur-sm lg:blur-0  z-[1] lg:opacity-100 opacity-10 flex-none lg:dark:bg-purple-500 lg:bg-orange-500 aspect-square rounded-[30px]">
         <img
           src={hero_headphone}
           alt="headphone"
