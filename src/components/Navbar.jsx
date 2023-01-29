@@ -62,7 +62,7 @@ const Navbar = (props) => {
       </div>
       {pathname.includes("home") && (
         <div className="sm:hidden grow text-center dark:bg-neutral-900 bg-neutral-100 hover:bg-neutral-100 dark:hover:bg-neutral-900 btn border-none font-light text-base normal-case dark:text-white">
-          <p>Anjas</p>
+          <p>Null Studio</p>
         </div>
       )}
       <div
