@@ -23,12 +23,28 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 
-.animate-text{
-    animation: spin 10s linear infinite;
+.animate-text {
+  animation: spin 10s linear infinite;
 }
 
 @keyframes spin {
-    to {
-        transform: rotate(-360deg);
-    }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.animate-hover {
+  animation: hovers 2s ease-in-out infinite;
+}
+
+@keyframes hovers {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
