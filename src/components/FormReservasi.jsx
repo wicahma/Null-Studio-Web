@@ -146,8 +146,11 @@ const FormReservasi = (props) => {
               }`}
             >
               <option disabled>none</option>
-              <option>Template 1</option>
-              <option>Template 2</option>
+              <option>Template 1 | Plombo</option>
+              <option>Template 2 | News Today</option>
+              <option>Template 3 | DA Exhib</option>
+              <option>Template 4 | Reksata</option>
+              <option>Template 5 | Star Camp</option>
             </select>
           </div>
 

@@ -4,7 +4,10 @@ import TemplateCard from "./TemplateCard";
 
 const Services = (props) => {
   return (
-    <section id="services" className=" flex justify-center flex-col gap-10 mx-5 mb-36">
+    <section
+      id="services"
+      className=" flex justify-center flex-col gap-10 mx-5 mb-36"
+    >
       <div className="flex items-center max-h-fit justify-between bg-red-500 rounded-[50px]">
         <div className="m-10 self-start dark:text-neutral-900 text-white">
           <h1 className="font-serif text-7xl font-bold">
@@ -22,10 +25,36 @@ const Services = (props) => {
         </div>
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid-flow-row-dense gap-5 w-full">
-        <TemplateCard />
-        <TemplateCard />
-        <TemplateCard />
-        <TemplateCard />
+        <TemplateCard
+          judul="Plombo"
+          deskripsi="Website Company profile yang berkerja dan juga bergerak di bidang pariwisata"
+          url="https://plombo-web-application.vercel.app/"
+          imgID="1YoiGXNqLKBs88oQxxzwpwghAuZCU2fwq"
+        />
+        <TemplateCard
+          judul="News Today"
+          deskripsi="Website penyedia layanan berita terkini yang disukai oleh anak muda."
+          url="https://news-today-three.vercel.app/"
+          imgID="1rV7LkypWLCN4h8fG8i_Tv0YI-yHOBFxb"
+        />
+        <TemplateCard
+          judul="DA Exhib"
+          deskripsi="Website yang memfasilitasi para kreator seni yang ada di Indonesia."
+          url="https://da-exhib.vercel.app/home"
+          imgID="1QqKkX8oZasczwrpvnFeuJ3yLBhw66CyC"
+        />
+        <TemplateCard
+          judul="Reksata"
+          deskripsi="Website Reservasi online untuk memudahkan pemesanan pada suatu Cafe."
+          url="https://reksata-app.vercel.app/"
+          imgID="1a_y2od-iE97frlgB0Vmzmzvrz__ixEaN"
+        />
+        <TemplateCard
+          judul="Star Camp"
+          deskripsi="Website persewaan alat alat gunung yang sudah terpercaya dan juga terkenal di Jogja."
+          url="https://star-camp.vercel.app/"
+          imgID="1y4AEksL90iWfjVx2f7Zzt1T8TULchb8r"
+        />
       </div>
     </section>
   );
